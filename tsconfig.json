@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "components/Auth/Login/index.js", "pages/_app.js", "pages/auth/register.js", "pages/auth/login.js", "pages/dashboard.js", "pages/index.js", "pages/api/login.js", "pages/api/profile.js", "helpers/index.js", "helpers/const.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
